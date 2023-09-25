@@ -1,4 +1,6 @@
 from config import CONN, CURSOR
 
 class Song:
-    pass
+    def __init__(self, name, album):
+        self.name = name
+        self.album = album
